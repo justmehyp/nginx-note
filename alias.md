@@ -1,9 +1,9 @@
 # alias
-Syntax:	alias path;
-Default:	—
-Context:	location
+Syntax:	alias path;  
+Default: —  
+Context: location
 
-alias 与 root 一样，是用来返回静态文件的，不会改变原始 URL，如果 location 里面又有 alias，又有 proxy_pass 或者 echo 等，则 alias 会失效。 
+alias 与 root 一样，是用来返回静态文件的，不会改变原始 URL，如果 location 里面又有 alias，又有 proxy_pass 或者 echo 等，则 alias 会失效。  
 示例：
 ```
 1） 建立目录：/usr/local/nginx/html/new-root
